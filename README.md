@@ -4,7 +4,7 @@ A light demonstration of Jinko API feature based on a Jupyter Notebook.
 
 ## Quick start
 
-This project rely on [poetry](https://python-poetry.org/) to manage dependency, but any valid jupyter-lab environnement will work.
+This project relies on [poetry](https://python-poetry.org/) to manage dependency, but any valid jupyter-lab environnement will work.
 
 1. Join [jinko.ai](https://www.jinko.ai), create or choose a project.
 2. Register an "Editor" API token from the [project settings](https://doc.jinko.ai/docs/quick-start)
@@ -25,7 +25,7 @@ This project rely on [poetry](https://python-poetry.org/) to manage dependency, 
     poetry run jupyter-lab
     ```
 
-This project rely on [poetry](https://python-poetry.org/) to manage dependency, but any other dependency manager may be used.
+This project relies on [poetry](https://python-poetry.org/) to manage dependency, but any other dependency manager may be used.
 
 ## References
 
