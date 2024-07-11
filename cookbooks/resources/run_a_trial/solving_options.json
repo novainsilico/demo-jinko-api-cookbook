@@ -1,0 +1,38 @@
+{
+    "allowVaryingStoichiometry": false,
+    "coreVersion": "35.28.0",
+    "discontinuityEvents": "WarnOnly",
+    "evaluator": "LLVM",
+    "extentUnits": "mol",
+    "inlineLimit": 1,
+    "maxEvents": 100,
+    "mutePhenomena": "None",
+    "muteVariables": "None",
+    "odeSolverAbsoluteTolerance": 0.000001,
+    "odeSolverInitialStep": 0.000001,
+    "odeSolverRelativeTolerance": 0.000001,
+    "outputCompartments": {
+        "Some": []
+    },
+    "outputParameters": {
+        "Some": []
+    },
+    "outputRates": {
+        "Some": []
+    },
+    "outputVariables": {
+        "Some": []
+    },
+    "scoringMode": "ScoringV2",
+    "solver": "BDF",
+    "solvingTimes": [
+        {
+            "parentUuid": null,
+            "tMax": "P1M",
+            "tMin": "PT0S",
+            "tStep": "PT6H",
+            "uuid": null
+        }
+    ],
+    "unitCheck": "UnitCheckAndConvertAllSpeciesToExtentUnits"
+}
