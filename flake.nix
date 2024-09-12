@@ -24,6 +24,7 @@
             pkgs.bashInteractive
           ];
           shellInit = ''
+            source .envrc 2> /dev/null || true
             export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath [
               pkgs.stdenv.cc.cc
             ]}
